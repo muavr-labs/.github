@@ -24,16 +24,6 @@ Naming, structure, and conventions are treated as part of the architecture — n
 
 ---
 
-## Public Documentation
-
-Organization-wide rules and conventions live in this repository:
-
-- [Naming Convention](./NAMING.md)
-
-Additional guidelines (contributing rules, discussions, templates) may appear here over time.
-
----
-
 ## Notes
 
 Not all repositories are active or supported.
