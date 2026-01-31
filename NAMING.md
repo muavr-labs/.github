@@ -114,6 +114,7 @@ The following roles are defined and preferred:
 Examples:
 - `sententia-kernel`
 - `sententia-view`
+- `sententia-schema`
 - `sententia-surface`
 
 This rule is product-agnostic and applies equally to all products.
@@ -168,7 +169,7 @@ Examples:
    Avoid multi-word suffixes.
 
 6. **Separate product roles from domain modules**  
-   - Product roles use predefined role suffixes (`-kernel`, `-view`, `-surface`).
+   - Product roles use predefined role suffixes (`-kernel`, `-view`, `-surface`, `-schema`).
    - Domain modules use domain nouns (for example, `identity`, `records`, `estate`).
 
 ### 5.4 Repository Boundary Guidance
@@ -226,7 +227,7 @@ Naming is structural, not marketing-driven.
 
 - Norse mythology — infrastructure topology
 - Latin or archaic codenames — products
-- Roles (`kernel`, `view`, `surface`) — product decomposition
+- Roles (`kernel`, `view`, `surface`, `schema`) — product decomposition
 - Domain nouns — integrations and domain modules
 - `x` suffix — libraries
 - GitHub archive state — lifecycle end
