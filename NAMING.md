@@ -99,6 +99,12 @@ The following roles are defined and preferred:
   The visual shell of the system.  
   Contains design system artifacts such as visual language, tokens, and assets.
 
+- `schema`  
+  The interaction schema of the system.  
+  Contains interface definitions (e.g. protobuf, IDL), message schemas,
+  and generated language bindings.  
+  This role defines **structure of communication**, not behavior.
+
 ### 4.2 Usage Rules
 
 - Roles are appended to the product codename using a hyphen.
